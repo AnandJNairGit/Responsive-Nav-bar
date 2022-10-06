@@ -113,3 +113,11 @@ header {
     /* box-shadow: 0rem 0rem 2rem 0rem rgb(6, 7, 6); */
   }
   
+  li:hover{
+    font-weight: 700;
+  }
+  
+  
+  .nav-list i {
+    display: none;
+  }
