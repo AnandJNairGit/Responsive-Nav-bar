@@ -56,3 +56,60 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+header {
+    height: 100vh;
+    width: 100vw;
+  
+    background-image: url("./asset/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .layer {
+    background-color: rgba(10, 89, 81, 0.387);
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+  
+  }
+  
+  .logo {
+    color: rgb(207, 213, 209);
+    z-index: 0;
+  
+  }
+  
+  .logo::after {
+    content: "kerala";
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    margin: 0rem 5rem;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 2000px;
+    margin: auto;
+    height: 5rem;
+    overflow: visible;
+    z-index: 1;
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 3rem;
+    font-size: 1.5rem;
+    color: white;
+    background: rgba(2, 2, 2, 0.306);
+    padding: 1rem;
+    border-radius: 0.2rem;
+    backdrop-filter: blur(5px);
+    /* font-weight: 700; */
+    /* box-shadow: 0rem 0rem 2rem 0rem rgb(6, 7, 6); */
+  }
+  
